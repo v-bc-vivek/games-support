@@ -1,0 +1,7 @@
+$border-color: #ededed;
+.single {
+    &__record{
+        border: 1px solid $border-color;
+        padding:16px;
+    }
+}

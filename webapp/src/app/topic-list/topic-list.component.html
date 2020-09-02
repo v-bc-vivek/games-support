@@ -1,0 +1,3 @@
+<ng-container *ngFor="let topic of topicList">
+    <app-single-item [data]="topic" (redirctTo) ="goToNextSreen($event)"></app-single-item>
+</ng-container>

@@ -1,0 +1,5 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+    <input type="email" name="email" ngModel required #first="ngModel">
+    <input type="submit">
+</form>
+

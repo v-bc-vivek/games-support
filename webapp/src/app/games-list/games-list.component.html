@@ -1,0 +1,4 @@
+<ng-container *ngFor="let game of gamesList">
+    <app-single-item [data]="game" (redirctTo) ="goToNextSreen($event)"></app-single-item>
+</ng-container>
+
